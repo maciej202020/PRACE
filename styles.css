@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    width: 1370px;
+  }
+
+  
+  .nav {
+    float: right;
+    background-color: #333;
+    color: #fff;
+    margin-top: 60px;
+    padding: 10px 0;
+    max-width: 1000px;
+    min-width: 800px;
+    float: right;
+    align-items: center;
+  }
+
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav ul li {
+    margin: 0 10px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+  }
+
+  .gora {
+    clear: both;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .gora h2 {
+    text-align: center;
+  }
+
+  .goralewo {
+    float: left;
+    width: 675px;
+    margin-top: 30px;
+  }
+
+  .goraprawo {
+    float: left;
+    width: 675px;
+    padding-left: 150px;
+  }
+
+  .dol {
+    clear: both;
+    padding: 10px;
+  }
+
+  .dollewo {
+    float: left;
+    width: 450px;
+  }
+
+  .dolsrodek {
+    float: left;
+    width: 450px;
+  }
+
+  .dolprawo {
+    float: left;
+    width: 450px;
+  }
+
+  .footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
